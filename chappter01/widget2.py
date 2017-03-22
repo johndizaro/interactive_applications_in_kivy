@@ -8,10 +8,10 @@ class MyWidget(Widget):
     pass
 
 
-class WidgetsApp(App):
+class Widgets2App(App):
     def build(self):
         return MyWidget()
 
 
 if __name__ == "__main__":
-    WidgetsApp().run()
+    Widgets2App().run()
